@@ -90,7 +90,9 @@ footer{
     width: 1250px;
     text-align: center;
 }
-
+footer>p{
+    margin-bottom: 10px;
+}
 
 .muahang{
     background-color: rgb(78, 79, 79);
