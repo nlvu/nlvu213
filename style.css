@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.btn-toggle-menu{
+    cursor:pointer;
+    display:none;
+}
+#toggle-menu{
+    display:none;
+}
+.container{
+    margin:auto;
+    padding:0 15px;
+}
+nav{
+    background-color:rgb(0, 0, 0);
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+}
+.menu label {
+    color: #fff;
+}
+.menu li a{
+    display:block;
+    padding: 13px 15px;
+    font-weight:bold;
+    border-radius: 15px;
+    color: aliceblue;
+}
+.logo{
+    padding: 8px ;
+    font-size: x-large;
+}
+header nav{
+    color: aliceblue;
+}
+header nav .menu{
+    float: right;
+}
+header nav .menu :hover{
+   background-color: rgb(10, 239, 235);
+   color:black;
+   border-radius: 5px;
+   transition: 0.2s ease-in-out;
+}
+h3{
+    text-align: center;
+}
+.row{
+    text-align:right; 
+}
+.anh:hover img{
+    transform:scale(1.36);
+	transition:all 0.3s ease-in-out;
+
+}
+.anh{
+    height: 310px;
+    text-align: center;
+    float: left;
+    margin-right:40px;
+    margin-left:135px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    line-height: 10px;
+}
+.anh>p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.title{
+    margin-top: 15px;
+    margin-bottom: 10px; 
+}
+footer{
+    margin-top: 30px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    float:left;
+    height:auto;
+    width: 1250px;
+    text-align: center;
+}
+
+
+.muahang{
+    background-color: rgb(78, 79, 79);
+    padding: 10px 5px 10px 5px;
+    
+}
+.muahang:hover{
+    background-color: aliceblue;
+}
+.muahang>a{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.muahang>a:hover{
+    text-transform: uppercase;
+    color: red;
+}
+.lienhe{
+    color: aliceblue;
+    float:left;
+    margin-left: 130px;
+}
+.diachi{
+    color: aliceblue;
+    margin-left: 130px;
+    margin-right: 260px;
+}
+.gioithieu{
+    color: aliceblue;
+    float: right;
+    margin-right: 130px;
+}
+.danhmuc{
+    float: left;
+    width: 25%;
+    background-color: rgb(234, 239, 239);
+    height:650px;
+    text-align: center;
+}
+.xemthem{
+    width: 120px;
+    text-align: center;
+    background: #8d8c8b;
+    margin-left: 55%;
+    margin-top: 700px;
+    padding: 7px 4px 7px 4px;
+}
+.xemthem>a{
+    color: black;
+}
+.tintuc{
+    margin-top: 40px;
+
+}
+.left{
+    float: left;
+    margin-left: 60px;
+}
+.left1{
+    width: 550px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #8d8c8b;
+}
+.right{
+    float: right;
+    margin-right: 60px;
+}
+.right1{
+    width: 550px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #8d8c8b;
+}
+.fpt{
+    background-color: antiquewhite;
+    color: black;
+}
+/*
+trang đăng kí- đăng nhập
+*/
+#frm1  { 
+    width: 600px; margin: auto; 
+    border: 2px solid darkslategrey; 
+    padding: 10px;
+    background-color: aquamarine;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  #frm1 >h1{
+    text-align: center;
+    
+  }
+  #frm1 > p { 
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 120px auto;
+  }
+  #frm1 label { 
+    font-weight: 900;
+    color: darkslategray;
+  }
+  #frm1 .txt { 
+    width: 90%; padding: 8px; 
+    border: 1px solid lightcoral; 
+    vertical-align:middle;
+}
+.menu i{
+    display: none;
+}
+/* 
+
+*/
+@media screen and (max-width: 768px) {
+    nav{
+        flex-wrap:wrap;
+    }
+    .menu{
+        display: none;
+    }
+    .btn-toggle-menu{
+        display:unset;
+    }
+    #toggle-menu:checked + .menu{
+        display: block;
+        width: 100%;
+    }
+}
+

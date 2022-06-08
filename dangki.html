@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <header>
+          <nav>
+            <div class="logo">
+                <p>VU-store</p>
+            </div>
+                <label for="toggle-menu" class="btn-toggle-menu">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <input type="checkbox" id="toggle-menu">
+                    <ul class="menu">
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="ass.html">Sản Phẩm</a></li>
+                        <li><a href="#">Giỏ Hàng</a></li>
+                        <li><a href="dangki.html">Đăng Kí </a></li>
+                        <li><a href="dangnhap.html">Đăng Nhập</a></li>
+                    </ul>
+        </nav>
+        </header>
+        <section class="login-from">
+            <img src="images/1.jpg" alt="" width="100%" height="400px">
+        </section>
+        <form id="frm1">
+            <h1>ĐĂNG KÍ THÀNH VIÊN</h1>
+            <p>
+              <label>Tên đăng nhập</label>
+              <input type="ten" class="txt" id="tendangnhap" name="tendangnhap" placeholder="Tên đăng nhập 6 đến 30 ký tự" autocomplete="off" autofocus>
+            </p>
+            <p>
+              <label>Mật khẩu</label>
+              <input type="password" class="txt" id="matkhau" name="matkhau" placeholder="Mật khẩu 6 đến 25 ký tự" autocomplete="new-password">
+            </p>
+            <p>
+              <label>Họ tên</label>
+              <input type="ten" class="txt" id="hoten" name="hoten" placeholder="Nhập họ & tên ">
+            </p>
+            <p>
+              <label>Email</label>
+              <input type="email" class="txt" id="email" name="email" placeholder="Nhập email: ...@gmail.com">
+            </p>
+            <p>
+              <label>Giới Tính</label>  
+              <span id="gioitinh">             
+                  <input type="radio" name="phai" value="Nam">Nam
+                  <input type="radio" name="phai" value="Nữ">Nữ<br>
+                  <input type="radio" name="phai" value="Nữ">Khác<br>
+              </span>
+            </p> 
+            <p>
+              <label>Sở thích</label>
+              <span id="chonsothich">
+                <input type="checkbox" class="sothich" name="st[]">Bắn Súng 
+                <input type="checkbox" class="sothich" name="st[]">Đá Bóng
+                <input type="checkbox" class="sothich" name="st[]">Chơi Game
+                <input type="checkbox" class="sothich" name="st[]">Khác
+               </span>
+            </p>
+            <p>
+              <label>Quốc Tịch</label>    
+              <select name="quoctich" id="quoctich" class="txt">
+                <option value="0">Quốc Tịch </option>
+                <option value="2">Việt Nam </option>
+                <option value="3">Hoa Kì</option>
+                <option value="4">Nga </option>
+                <option value="5">Trung Quốc </option>
+                <option value="6">Lào </option>
+                <option value="7">Pháp </option>
+              </select>
+            </p>
+            <p>
+              <label>Ghi Chú </label>
+              <textarea class="txt" id="gioithieu" name="gioithieu" rows="6" placeholder="Ghi Chú"></textarea>
+            </p>   
+            <p>
+            <button>Đăng ký</button>  
+            </p>
+          </form>
+    </div>
+    <footer>
+        <h1>VU-store</h1>
+        <p>Sự Lựa Chọn Hoàn Hảo</p>
+        <br>
+        <section class="lienhe">
+            <h1>Tổng Đài</h1>
+            <p>Tư Vấn:1900 2009</p>
+            <p>CSKH:1900 0091</p>
+            <p>Khiếu Nại: 1900 ****</p>
+            <p>Bảo Hành:1900 1029</p>
+        </section>
+        <section class="gioithieu">
+            <h1>Giới Thiệu</h1>
+            <p>CTY TNHH 1 thành viên</p>
+            <p>Nguyễn Long Vũ</p>
+            <p>PS20397</p>
+        </section>
+        <section class="diachi">
+            <h1>Địa Chỉ</h1>
+            <p>128 Trần Quang Khải</p>
+            <p>Phường Tân Định</p>
+            <p>Quận 1</p>
+            <p>TP.Hồ Chí Minh</p>
+        </section>
+        <div class="fpt">
+            <a>Nguyễn Long Vũ-PS20397_web17306 FPT Polytechnic</a>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
